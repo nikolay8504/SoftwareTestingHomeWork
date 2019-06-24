@@ -1,0 +1,141 @@
+
+Title:On first video when we tries to add a group name with not acceptable symphole ,system accept it.
+Severity:3
+Priority:3
+Environment:Chrome 
+Expected Result:System must show that "  not acceptable symphole"
+Actual Result:system  creat registration with not clear symphole 
+Steps to reproduce:
+1.Click Users   then clieck Add , star typr in search bar  not clear symphole 
+2.Then click save system accept it.  
+3.when trying add for second time  again with same not clear symphole system show error 
+4.
+
+_______________________________________________________________________________________________________________________
+
+Title: On second video when we try add name with not acceptable symphole system creat name.
+Description: First choice from User ,Groups we  type <b>Alex</b> then click Save , system respond correct with Expected result
+Second choice we do this from different way Structures setup ,Locations ,+Add on Name bar type <b> Alex click SAVE, system accept Name who include
+<b>Alex , then when we check in in Locate we will same name was saved only "Alex"
+Severity:2
+Priority:3
+Exepcted Result: When we try apply  not acceptable symphole system need show messages  in red "Unable to add the data" and under bar  must have messages"Name can 
+contain only lowercase/uppercase letters-,-, or space characters.
+Actual Result: system accept name Alex with symphole <b> Alex.
+Step to reproduce: 
+1.Click Users , Groups in bar Name: type <b>Alex<b>  we receive Expected Result:messages  in red "Unable to add the data" and under bar  must have messages"Name can 
+contain only lowercase/uppercase letters-,-, or space characters.
+2.Click Back  , then click Structures setup , Locations 
+3.Click Add  in Name bar type <b>Alex  click Save   we will receive messsages "the data has been saved"
+4.Then we click locations we see name was saved only Alex.
+
+_______________________________________________________________________________________________________________________________________________________________
+Title: On screenshot file  on Pragmatic2 > Locations> Index have not exepcted result  in column ID = 418 , column Name =DontDeleteMe ,column Scanners we see not expected content :
+Scanner,ScannerTest,Duplicate,EditScanner,AbandonDeletetionScanner
+Severty:4
+Priority:2
+Exepcted Result: at index page column Scanners must be empty or show only one result.
+Actual Result: in column Scanners show 5 Results"Scanner,ScannerTest,Duplicate,EditScanner,AbandonDeletionScanner
+Step to reproduce:
+1.Open page going Pragmatic2 -> Locations -> Index
+2.Check ID-418 ,Name dontDeleteMe , Scanners - Scanner, ScannerTestmDuplicate,EditScanner,AbandonDeletionsScanner
+3.Refresh page 
+
+
+______________________________________________________________________________________________________________________________________________________________________
+Title: On four video ,  when we trying edit data with same credentional more then 1 time sistem always accept. 
+it possible to  add more data with same credentials 
+Description:  Page  Pragmatic2 ->Configuration ->Edit , when we type for name : test and url:http://pragmatic.bg  then click
+save system accept change, then when we tring again with same credentials  system again accept it.
+Severity:1
+Priority:3
+Exepcted Result: when we try apply with same credentials system must show  "This name already  exist " 
+Actual Result:  when we type same credentials and click  Save  . after every click we receive messages "Your data has been updated"
+Step to reproduce:  
+1. Open Pragmatic2 ->Configurate->Add  Name type :  test ,url:http://pragmatic.bg click save ,  messages: data has been saved
+2.Again  type same credentials and click save ,  system will show that data has been saved .
+3.Going to Pragmatic2 ->Configurate -> Index  you will see that there is created data with name:test and url:http://pragmatic.bg
+4.When from Pragmatic2->Configurate -> Index click add  add data with same credentials you will create date with same credentials 
+
+________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________
+BUG1:  Pet Clinics Web 
+
+Title:When trying to  add Birth Date of New Peth  when calendar is opened to chose date  calendar have very bad position . 
+Descriptions:When you add Pet Birth Date calendat is open in very bad possition who hidden another drop down options 
+also from calendar you can not choice  date , you need type date. 
+Status:Active
+Version number: browser Chrome 75.0.7
+Severity:4
+Priority:1
+Feature area: Every where can choice date 
+Step to reproduce: When you add owner  then when you add Pet when you click Pet date birth
+Assignment:
+Customer Impact: bad impression  ,  for some client will be dificult to add date of birth of there peth.
+Step to reproduce: i upload foto  
+Exepcted Result: Calendat must be open in correct place in interface not hiden another fields also customer must choice date and year from click with mouse.
+Actual Result: When client start field date calendar is not open correct and is not usefull you can not choice date and year.
+Step to reproduce:
+1.Open URL petclinic  then add owner 
+2.add peth  add name peth
+3.add date of birth  
+_______________________________________________________________________________________________________________
+BUG2   
+Title When start  registrat new owner , fields for FirstName,  Last Name  and City accept numbers.in Search bar also we can find for last name with numbers
+Descriptions: When we start registrat new pet owner  and start  type for First Name   Last Name and City numbers  123456789 system not give mistake 
+and we can save it.
+Status:Active
+Version Number: browser Chrome 75.0.7	
+Severity:2
+Priority:2
+Feature area:Registraion field for   new Owner 
+Step to reproduce: When you start registrate new Owner and searching with last name type numbers. 
+Customer Impact: Client will think that our site not secure 
+Exepcted Result:When apply with numbers for Firs Last name , need receive error that system accept only letters
+for address accept letter and  numbers 
+Actualt Result:  Client can add numbers for First Name Last Name  and address
+Step to reproduce:
+1.Add new owner 
+2.Type for Firs Name Last Name , Address only numbers. 
+3.Click Save 
+
+________________________________________________________________________________________________________
+____________________________________________________________________________________________________
+ BUG3
+Title:When start make registration for new owner with same credential , Firt Last Name , Address , City Telephone ,  system accpet it . 
+Descriptions: When apply First Last Name , Address , City , Telephone , with same credential ,  system  accept it , then when we check in owners we se 
+created data with same credential is there.
+Status:Active
+Version Number: Chrome 75.0.7	
+SeVERITY:2	
+Priority:2	
+Feature area: Registration for new pet owner 
+Step to reproduce: Going to petclinc click add new ownet type credential  for First , Last Names ,  City ,Telephone , Address , click save , then repear with same data
+, then click to see owners or use search bar  sistem show created  owners with same names , telephones , address , city 
+Customer impact: Customer can apply not correct details , 
+Exepcted Result: System must show that   data with this details already exist 
+Actual Result:  can creatå dublicate account 
+Step to reproduce:
+1 Open URL , add owner
+2 apply First , Last name , address ,phone , City 
+3 Repeat with same credentials
+4  Try to find created account  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
